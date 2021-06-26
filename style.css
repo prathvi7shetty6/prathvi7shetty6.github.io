@@ -1,0 +1,156 @@
+
+nav {
+  position: fixed;
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  display: block;
+
+}
+
+footer {
+  background-image: radial-gradient(circle, #dadee5, #d1d7ee, #d1cdf4, #d9c1f5, #e7b2f0);
+  width: 100%;
+  height: 3rem;
+}
+
+.social-media-icons {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer a {
+  padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 300;
+}
+
+.profile {
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 85%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+  height: 350px;
+}
+
+.intro-left {
+  width: 60%;
+  position: relative;
+}
+
+
+.intro-right {
+  width: 40%;
+  position: relative;
+  top: -100px
+}
+
+.content {
+   margin: 20px;
+   /* background-color: violet; */
+}
+
+.card-wrapper {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(1, auto);
+}
+
+.section1 {
+    background-image: linear-gradient(
+120deg
+, #d3e0ff, #eaeaff);
+}
+
+.section2 {
+  background-image: linear-gradient(
+    -120deg
+    , #fedfe7, #fbedff);
+}
+
+.section3 {
+  background-image: linear-gradient(
+120deg
+, #e0f7ff, #dffff4);
+}
+
+img {
+  width: 70%;
+  height: 320px;
+  
+}
+
+.intro-text {
+  font-size: 20px;
+    font-family: cursive;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.fas {
+  color: gray;
+}
+
+a {
+  color: rgb(7, 84, 107);
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.heading {
+  border-left: solid;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+  img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .wrapper {
+    margin: 50px;
+  }
+
+  .intro-text {
+    font-size: 15px;
+      font-family: cursive;
+  }
+
+  
+}
+
+@media only screen and (max-width: 750px) {
+  img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .wrapper {
+    margin: 50px;
+  }
+  .intro-text {
+    font-size: 10px;
+      font-family: cursive;
+  }}
+
