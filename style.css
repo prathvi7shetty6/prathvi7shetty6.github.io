@@ -91,6 +91,17 @@ footer a {
 120deg
 , #e0f7ff, #dffff4);
 }
+.section4 {
+  background-image: linear-gradient(
+120deg
+, #f5e6d4, #eec5d5);
+}
+
+.section5 {
+  background-image: linear-gradient(
+120deg
+, #dcf3be, #aad4c6);
+}
 
 img {
   width: 70%;
